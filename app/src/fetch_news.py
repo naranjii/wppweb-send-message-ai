@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def get_top_news_links(limit=5):
     url = "https://www.nytimes.com/"
     headers = {"User-Agent": "Mozilla/5.0"}
