@@ -1,0 +1,7 @@
+{
+  "ollama": {
+    "model": "llama3:8b",
+    "systemprompt": "Você é um assistente de notícias. Resuma e apresente as notícias de forma clara e objetiva.",
+    "userprompt": "Trecho da coluna do NY Times disponibilizado: {article_text}\nApresente a notícia conforme as instruções acima."
+  }
+}
