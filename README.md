@@ -5,31 +5,24 @@
 [![Last Commit](https://img.shields.io/github/last-commit/naranjii/wppweb-send-message-ai?style=flat-square)](https://github.com/naranjii/wppweb-send-message-ai/commits)
 ![Status](https://img.shields.io/badge/status-in%20progress-orange?style=flat-square)
 
-> A Selenium-based automation script for sending WhatsApp Web messages.  
-> Originally designed to integrate local AI, this project laid the foundation for a backend AI agent system served via Ollama.
-
 ---
 
 ## 📦 About
 
 **`wppweb-send-message-ai`** is a lightweight automation tool written in Python using **Selenium** to send messages through WhatsApp Web.
 
-While it once experimented with local model instantiation, it now serves as a **gateway project** — prompting the shift toward **Ollama-backed APIs** to serve AI messages from a centralized backend for multiple agents.
-
-🔗 **Repository:** [github.com/naranjii/wppweb-send-message-ai](https://github.com/naranjii/wppweb-send-message-ai)
-
 ---
 
 ## ✅ Current Features
 
 - 🟢 Send WhatsApp messages through automated browser
-- 🧪 Simple architecture, ready for integration with AI message sources
-- 🔁 Can be looped or scheduled via external tools (e.g., `cron`, `schedule`, or tray GUIs)
+- 🧪 Simple architecture, ready for integration with AI message sources, content array, et.
+- 🔁 Can be looped or scheduled via external tools (e.g., `cron`, `schedule`, or tray GUIs*)
 - 📂 Clean and extendable module structure
 
 ---
 
-## 🔜 Planned Features
+## 🔜 *Planned Features
 
 - 🚀 Connect to a local Ollama-based API for AI-generated content
 - 🧠 Serve messages from agents with memory/context
