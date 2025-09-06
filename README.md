@@ -24,7 +24,7 @@
 
 ## 🔜 *Planned Features
 
-- 🚀 Connect to a local Ollama-based API for AI-generated content
+- 🚀 Connect with API layer for AI-generated content
 - 🧠 Serve messages from agents with memory/context
 - 🔒 Improve headless support and session persistence
 - ⏰ Native scheduling via config file or backend service
